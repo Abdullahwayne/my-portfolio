@@ -1,0 +1,25 @@
+.header-parent{
+    background-color: #7B4AE2;
+    background-color: #C83267;
+    background-color: #090E16;
+    
+
+}
+.header-parent-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-nav{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    
+    }
+   
+   

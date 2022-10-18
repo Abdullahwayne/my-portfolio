@@ -1,0 +1,37 @@
+.home-wrapper{
+    background-color: #7B4AE2;
+    background-color: #C83267;
+    background-color: #090E16;
+    display: flex;
+    justify-content: space-around;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        padding: 8%;
+        width: 50%;
+    }
+    .hello{
+        display: flex;
+        gap: 20px;
+        color: white    ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .img{
+        width: 3%;
+    }
+    .name{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        
+    }
+    .designation{
+        color: white;
+        opacity: 50%;
+    }
+    .social {
+        display:flex;
+        gap: 15px;
+    }
