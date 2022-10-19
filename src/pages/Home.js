@@ -5,6 +5,7 @@ import link from '../asset/Group.svg'
 import github from '../asset/github.png'
 import twitter from "../asset/Vector.png"
 import avatar from "../asset/AvatarAndIcons.svg"
+import Cards from '../components/Cards'
 const Home = () => {
   return (
     <div className='home-wrapper'>
@@ -33,7 +34,11 @@ const Home = () => {
                 <img src={avatar} alt="avtar"/>
 
             </div>
-
+        <div className='cards'>
+            <div className='cards-align'>
+            <Cards/>
+            </div>
+        </div>  
 
     </div>
   )
